@@ -64,3 +64,38 @@
   top: 48%;
   left: 3%;
 }
+
+.top-prod{
+  height: 80vh;
+} 
+
+.title-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.title{
+  color: #EB3855;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+}
+
+.card{
+  background-color: rgb(52, 81, 132);
+  width: 20vw;
+  border-radius: 20pX;
+  height: 70%;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

@@ -1,9 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *{
   margin: 0;
+  font-family: outfit;
+  
 }
 
 .hero-border{
-  border: 2px solid red;
   height: 100vh;
+  background-color: #F4EFE6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+.phone-image{
+  background-color: rgb(52, 81, 132);
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+  height: 60%;
+  width: 60%;
+}
+
+.hero-title{
+  position: absolute;
+  top: 68%;
+  color: #EB3855;
+  border-radius: 30px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+  font-size: 100px;
+}
+
+.tagline{
+  font-size: 200px;
+  line-height: 140px;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+
+.bold{
+  
+  font-weight: bolder;
+  color: #EB3855;
+  position: absolute;
+  top: 48%;
+  left: 3%;
+}
